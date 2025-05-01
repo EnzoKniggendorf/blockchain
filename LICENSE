@@ -1,0 +1,13 @@
+### Passos importantes:
+1. Crie a pasta `screenshots` no seu repositório
+2. Adicione pelo menos estas imagens:
+   - `demo.png` (print da execução completa)
+   - `validation-pass.png` (validação bem-sucedida)
+   - `validation-fail.png` (validação com erro)
+3. Garanta que as imagens estejam em formato PNG/JPG e com nomes descritivos
+
+### Exemplo de commit para adicionar screenshots:
+```bash
+git add screenshots/
+git commit -m "Adiciona capturas de tela demonstrativas"
+git push origin main

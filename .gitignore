@@ -1,0 +1,38 @@
+# ================ #
+#  AMBIENTE/CREDS  #
+# ================ #
+.env                # Variáveis de ambiente
+.env.local          # Configurações locais
+.env.*.local        # Overrides locais
+
+# ================ #
+#    PYTHON        #
+# ================ #
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.pot
+*.venv
+venv/
+
+# ================ #
+#      IDE         #
+# ================ #
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================ #
+#     SISTEMA      #
+# ================ #
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================ #
+#    MONGODB       #
+# ================ #
+/data/db/           # Para instalações locais
+mongod.log

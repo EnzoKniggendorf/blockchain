@@ -3,6 +3,13 @@ from datetime import datetime
 import hashlib
 import json
 import sys
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+URI = os.environ.get("MONGO_URI")  # Seguro contra None
+client = MongoClient(URI)
 
 # Configuração do MongoDB
 URI = "mongodb+srv://blockchain_user:senha123@cluster0.n8aio4h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"

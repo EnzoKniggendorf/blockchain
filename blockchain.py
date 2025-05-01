@@ -12,7 +12,7 @@ URI = os.environ.get("MONGO_URI")  # Seguro contra None
 client = MongoClient(URI)
 
 # Configuração do MongoDB
-URI = "mongodb+srv://blockchain_user:senha123@cluster0.n8aio4h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+URI = "mongodb+srv://<db_username>:<db_password>@cluster0.n8aio4h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 try:
     client = MongoClient(URI)
